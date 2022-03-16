@@ -66,6 +66,11 @@
         color: #fff;
         text-decoration: none;
     }
+    
+    .menu-responsive a:hover {
+        border-bottom: none;
+    }
+    
     .menu-responsive li {
         position: relative;
         list-style: none;
