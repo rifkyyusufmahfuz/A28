@@ -68,7 +68,7 @@
     }
     
     .menu-responsive a:hover {
-        border-bottom: none;
+        border: 0;
     }
     
     .menu-responsive li {
