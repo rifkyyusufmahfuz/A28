@@ -63,10 +63,11 @@ h2 {
     color: black;
     font-size: 16px;
     margin-left: 10px;
+    padding: 20px 0 24px 0;
 }
 
 .header-right a:hover {
-    border-bottom: 2px solid #7203c8;
+    border-bottom: 5px solid #7203c8;
 }
 
 
@@ -368,10 +369,6 @@ textarea {
 
 .menu-responsive {
     display: none;
-}
-
-.dropdown-child a:hover {
-    background: #c0bca2;
 }
 
 
