@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+header {
+    height: 65px;
+    background-color: #ffe364;
+    top: 0;
+    width: 100%;
+    position: sticky;
+    z-index: 10;
+}
+
+footer {
+    background-color: #7203c8;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 14px;
+    opacity: 0.8;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/* Header*/
+
+.head {
+    max-width: 1170px;
+    width: 100vw;
+    padding: 0 15px;
+}
+
+.logo {
+    width: 60px;
+    margin-top: 5px;
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    line-height: 59px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+/* main */
+
+.fullscreen-vid {
+    background-color: #ffe364;
+    position: relative;
+    height: max-content;
+}
+
+.dts-vid {
+    border-radius: 75px;
+    width: 70vw;
+    display: block;
+    padding-bottom: 30px;
+}
+
+
+/* Body */
+
+.tim-list {
+    background-color: hsl(60, 100%, 96%);
+    padding-top: 20px;
+}
+
+.tim-content {
+    padding-top: 20px;
+    padding-left: 8%;
+    width: 30%;
+    display: inline-block;
+}
+
+.tim-icon {
+    position: relative;
+    text-align: center;
+}
+
+.tim-icon img {
+    height: 190px;
+    width: 90px;
+}
+
+.txt-content {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.tim-history {
+    padding: 30px 30px;
+    background-color: #fafac7;
+}
+
+.tim-history h1 {
+    text-align: center;
+}
+
+.tim-history h2 {
+    font-weight: normal;
+    font-size: 14px;
+    opacity: 0.8;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.tim-history time {
+    font-weight: bold;
+    letter-spacing: 7px;
+    font-size: 24px;
+}
+
+.tim-history p {
+    padding-top: 10px;
+    text-align: justify;
+    padding: 5 5;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.tim-history ul {
+    padding-right: 55px;
+}
+
+.tim-history ul li {
+    list-style-type: none;
+    position: relative;
+    width: 12px;
+    padding-top: 50px;
+    background: #7203c8;
+}
+
+.tim-history ul li::after {
+    content: '';
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    height: 10px;
+    background: inherit;
+    top: calc(60% - 5px);
+}
+
+.tim-history ul li:nth-child(even)::after {
+    right: auto;
+    left: 0;
+}
+
+.tim-history ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: #f4d05b;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.tim-history ul li div:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+}
+
+.tim-history ul li:nth-child(odd) div {
+    right: 445px;
+}
+
+.tim-history ul li:nth-child(even) div {
+    left: 52px;
+}
+
+.tim-value {
+    background-color: #ffffeb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.judul-timvalue {
+    text-align: center;
+    font-weight: 300;
+}
+
+.judul-timvalue p:nth-child(2) {
+    margin-top: -20pt !important;
+}
+
+.isi-timvalue {
+    text-align: center;
+    overflow: hidden;
+    font-weight: normal;
+    font-size: 32px;
+    display: block;
+    white-space: nowrap;
+}
+
+.isi-timvalue p {
+    margin: 0px !important;
+    color: gray;
+    text-align: center;
+}
+
+.scroller {
+    height: 70pt;
+    line-height: 70pt;
+    overflow: hidden;
+}
+
+.scroller .paragraf-timvalue {
+    animation: 10s normal infinite running scroll;
+}
+
+@keyframes scroll {
+    0% {
+        margin-top: 2px;
+    }
+    15% {
+        margin-top: 2px;
+    }
+    25% {
+        margin-top: -70pt;
+    }
+    40% {
+        margin-top: -70pt;
+    }
+    50% {
+        margin-top: -140pt;
+    }
+    65% {
+        margin-top: -140pt;
+    }
+    75% {
+        margin-top: -210pt;
+    }
+    90% {
+        margin-top: -210pt;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.daftar-input {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-input {
+    text-align: center;
+}
+
+.header-input p {
+    padding-bottom: 20px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.tombol {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #7203c8;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(196, 196, 196);
+}
+
+.tombol:hover {
+    background-color: #a538f8;
+}
+
+.tombol:active {
+    background-color: #a538f8;
+    box-shadow: 0 5px rgb(179, 179, 179);
+    transform: translateY(5px);
+    -webkit-transition: 0.1s ease;
+    transition: 0s;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    display: inline-block;
+}
+
+.search input {
+    width: 300px;
+}
+
+
+/* FOOTER */
+
+.logo-footer h2 {
+    padding: 20px 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.logo-footer p {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.search {
+    margin-left: 65%;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.search h3 {
+    display: inline-block;
+    color: #1E90FF;
+}
+
+.search input {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.menu-responsive {
+    display: none;
+}
+
+.dropdown-child a:hover {
+    background: #c0bca2;
+}
+
+
+/* footer dinamis */
+
+#footer2 {
+    text-align: center;
+    position: sticky;
+    border-top: 1px solid #98cefc;
+    border-bottom: 1px solid #98cefc;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 16px;
+    text-align: left;
+    color: #000000;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 13px;
+    z-index: 10000;
+    bottom: 0;
+}
