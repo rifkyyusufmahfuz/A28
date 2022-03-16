@@ -307,7 +307,7 @@ h2 {
 
 .tombol:active {
     background-color: #a538f8;
-    box-shadow: 0 5px rgb(179, 179, 179);
+    box-shadow: 0 5px rgb(56 10 92);
     transform: translateY(5px);
     -webkit-transition: 0.1s ease;
     transition: 0s;
