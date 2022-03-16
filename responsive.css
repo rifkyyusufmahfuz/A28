@@ -135,18 +135,21 @@
     .isi-timvalue {
         font-size: 14px;
     }
-  .tim-content {
+    .tim-content {
+        margin-left: 75px;
         padding-top: 20px;
-        padding-left: 100px;
-        width: 40%;
-        display: inline-block;
+        padding-left: 0px;
+    }
+    .tim-icon {
+        text-align: center;
     }
     .txt-content {
+        text-align: center;
         font-size: 12px;
     }
     .tim-icon img {
-        height: 100px;
-        width: 50px;
+        height: 125px;
+        width: 60px;
     }
     .search {
         margin-left: 0;
