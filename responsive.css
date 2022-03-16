@@ -135,11 +135,14 @@
     .isi-timvalue {
         font-size: 14px;
     }
-    .tim-content {
+  .tim-content {
         padding-top: 20px;
-        padding-left: 8%;
+        padding-left: 100px;
         width: 40%;
         display: inline-block;
+    }
+    .txt-content {
+        font-size: 12px;
     }
     .tim-icon img {
         height: 100px;
